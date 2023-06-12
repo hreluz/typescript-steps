@@ -1,0 +1,11 @@
+Compile
+------------
+	tsc filename
+
+Start config file
+-----------------
+	tsc --init
+
+Compile with config file
+-------------------------
+	tsc
