@@ -1,3 +1,10 @@
 "use strict";
 const msg = "Hola Mundo";
-console.log(msg);
+(() => {
+    const a = 10;
+    console.log(a);
+    let b;
+    function sayHello(msg) {
+        console.log(msg);
+    }
+})();
