@@ -8,3 +8,4 @@
     // let isSomething: boolean = null;
     // console.log(isSomething)
 })();
+//# sourceMappingURL=10-null-undefined.js.map

@@ -8,3 +8,4 @@
     const villains = ['Venom', 'Carnage', 'Green Globin'];
     villains.forEach(v => console.log(v.toUpperCase()));
 })();
+//# sourceMappingURL=05-arrays.js.map

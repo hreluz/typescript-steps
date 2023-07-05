@@ -13,3 +13,4 @@
     console.log({ avengers });
     // NaN is considered also a Number
 })();
+//# sourceMappingURL=02-numbers.js.map

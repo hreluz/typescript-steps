@@ -7,3 +7,4 @@
     const a = callBatman();
     console.log(a);
 })();
+//# sourceMappingURL=08-void.js.map
