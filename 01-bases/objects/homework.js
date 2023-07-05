@@ -1,5 +1,4 @@
 "use strict";
-// Objetos
 const batimovil = {
     carroceria: "Negra",
     modelo: "6x6",
@@ -15,7 +14,6 @@ const bumblebee = {
         console.log("Disparando");
     }
 };
-// Villanos debe de ser un arreglo de objetos personalizados
 const villanos = [{
         nombre: "Lex Luthor",
         edad: 54,
@@ -38,7 +36,6 @@ const apocalipsis = {
     miembros: ["Magneto", "Tormenta", "Psylocke", "Angel"]
 };
 console.log(apocalipsis);
-// Mystique, debe poder ser cualquiera de esos dos mutantes (charles o apocalipsis)
 let mystique;
 mystique = charles;
 mystique = apocalipsis;
