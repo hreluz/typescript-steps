@@ -18,6 +18,24 @@
     console.log({ ironman });
 })();
 (() => {
+    const ironman = {
+        name: 'Tony Stark',
+        weapon: 'Armor Suit'
+    };
+    const capAmerica = {
+        name: 'Capitan America',
+        weapon: 'Shield'
+    };
+    const thor = {
+        name: 'Thor',
+        weapon: 'Thunder'
+    };
+    const avengers = [ironman, thor, capAmerica];
+    for (const avenger of avengers) {
+        console.log(avenger.name, avenger.weapon);
+    }
+})();
+(() => {
     const NOMBRE = 'Hector';
     const getName = function () { };
 })();
