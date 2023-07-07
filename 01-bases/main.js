@@ -13,6 +13,9 @@
         console.log(avengers.vision);
     };
     printAvenger(avengers);
+    const avengersArr = ['Cap America', 'Ironman', 'Hulk'];
+    const [, ironman,] = avengersArr;
+    console.log({ ironman });
 })();
 (() => {
     const NOMBRE = 'Hector';
