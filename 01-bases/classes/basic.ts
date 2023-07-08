@@ -25,7 +25,7 @@
     console.log(antman.realName);
     console.log(Avenger.avgAge);
     console.log(antman.bio());
-    console.log(Avenger.getav());
+    // console.log(Avenger.getAvgAge());
 
 
 })();
