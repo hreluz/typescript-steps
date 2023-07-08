@@ -38,9 +38,21 @@
         getFullNameFromXmen() {
             return super.getFullName();
         }
+        get fullName() {
+            return `${this.name} - ${this.realName}`;
+        }
+        set fullName(name) {
+            if (name.length < 3) {
+                throw new Error('Name must be longer than 3 characterrs');
+            }
+            this.name = name;
+        }
     }
     const wolverine = new Xmen('Wolverine', 'Logan', true);
     console.log(wolverine);
     console.log(wolverine.getFullNameFromXmen());
+    console.log(wolverine.fullName);
+    wolverine.fullName = 'Super Wolverine';
+    console.log(wolverine.fullName);
 })();
 //# sourceMappingURL=main.js.map
