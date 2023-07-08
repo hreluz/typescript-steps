@@ -18,18 +18,17 @@
         }
     }
 
-    console.log('---- Abstract Class ---')
     const wolverine:Xmen = new Xmen('Wolverine', 'Logan');
     const magneto:Villain = new Villain('Magneto', 'Max Eisenhart');
-
-    console.log(wolverine.saveWorld());
-    console.log(magneto.conquerWorld());
 
     const printName = (character:Mutant) => {
         console.log(character.realName);
     }
 
-    printName(wolverine);
-    printName(magneto)
-    
+    // console.log('---- Abstract Class ---')
+    // console.log(wolverine.saveWorld());
+    // console.log(magneto.conquerWorld());
+
+    // printName(wolverine);
+    // printName(magneto)
 })();
