@@ -111,6 +111,6 @@
   ],
   "include" : [
     // "node_modules3"
-    "classes"
+    "interfaces"
   ]
 }
