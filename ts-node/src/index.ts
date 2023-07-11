@@ -2,10 +2,6 @@
 // import * as HeroClasses from "./classes/hero";
 // import powers2 from "./data/powers";
 
-import { genericFunctionArrow } from "./generics/generic"
-import { Hero } from "./interfaces/hero"
-import { Villain } from "./interfaces/villain"
-
 // import { printObject, genericFunction, genericFunctionArrow } from "./generics/generic";
 
 
@@ -31,11 +27,3 @@ import { Villain } from "./interfaces/villain"
 // console.log(genericFunction(3.141516).toFixed(2))
 // console.log(genericFunction('Hello World').toUpperCase())
 // console.log(genericFunctionArrow(new Date()).getDate())
-
-const deadPool = {
-    name: 'Deadpool',
-    realName: 'Wade Winston Wilson',
-    dangerLevel: 130
-}
-
-console.log(genericFunctionArrow<Villain>(deadPool).dangerLevel)
