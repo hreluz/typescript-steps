@@ -36,4 +36,6 @@
     };
     console.log(client.getFullAddress(''));
 })();
+(() => {
+})();
 //# sourceMappingURL=main.js.map
