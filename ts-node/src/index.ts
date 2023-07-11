@@ -2,7 +2,7 @@
 // import * as HeroClasses from "./classes/hero";
 // import powers2 from "./data/powers";
 
-import { printObject, genericFunction } from "./generics/generic";
+import { printObject, genericFunction, genericFunctionArrow } from "./generics/generic";
 
 
 // const Hero = 123;
@@ -25,5 +25,5 @@ printObject('Hola Mundo')
 
 console.log('Generic function')
 console.log(genericFunction(3.141516).toFixed(2))
-console.log(genericFunction('Hello World').toFixed(2))
-console.log(genericFunction(new Date()).toFixed(2))
+console.log(genericFunction('Hello World').toUpperCase())
+console.log(genericFunctionArrow(new Date()).getDate())
