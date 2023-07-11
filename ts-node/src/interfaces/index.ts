@@ -1,2 +1,3 @@
-export { Hero } from "../classes/hero";
+export { Hero } from "./hero";
+export { Pokemon } from './pokemon';
 export { Villain } from './villain';
