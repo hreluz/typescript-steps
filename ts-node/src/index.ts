@@ -9,7 +9,9 @@ console.log('Hola Mundo!!');
 
 
 // const ironman = new MyHero('Batman', '1', 25);
-const ironman = new HeroClasses.Hero('Batman', '1', 25);
+const ironman = new HeroClasses.Hero('Batman', 1, 25);
 console.log(ironman)
 console.log(powers2)
+console.log(ironman.power)
+
 
