@@ -8,4 +8,8 @@ Start config file
 
 Compile with config file
 -------------------------
-	tsc
+	tsc -w
+
+Decorators
+-------------
+	https://www.typescriptlang.org/docs/handbook/decorators.html

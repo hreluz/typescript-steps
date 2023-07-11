@@ -2,6 +2,7 @@
 // import * as HeroClasses from "./classes/hero";
 // import powers2 from "./data/powers";
 
+import { Pokemon } from "./decorators/pokemon-class";
 import { getPokemon } from "./generics/get-pokemon";
 
 // import { printObject, genericFunction, genericFunctionArrow } from "./generics/generic";
@@ -31,7 +32,10 @@ import { getPokemon } from "./generics/get-pokemon";
 // console.log(genericFunctionArrow(new Date()).getDate())
 
 
-getPokemon(4)
-    .then(pokemon => console.log(pokemon.sprites.front_default))
-    .catch(error => console.log(error))
-    .finally(() => console.log('End of getPokemon'))
+// getPokemon(4)
+//     .then(pokemon => console.log(pokemon.sprites.front_default))
+//     .catch(error => console.log(error))
+//     .finally(() => console.log('End of getPokemon'))
+
+const charmader = new Pokemon('Charmander');
+console.log(charmader)
