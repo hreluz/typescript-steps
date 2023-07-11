@@ -9,6 +9,12 @@ const printToConsoleConditional = (print:boolean = false):Function => {
     return () => console.log('Hello world')
 }
 
+const blockPrototype = function(constructor: Function) {
+    Object.seal(constructor)
+    Object.seal(constructor.prototype)
+}
+
+@blockPrototype
 // It executes only in the transpilation
 @printToConsoleConditional(false)
 export class Pokemon {

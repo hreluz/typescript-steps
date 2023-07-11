@@ -38,4 +38,6 @@ import { getPokemon } from "./generics/get-pokemon";
 //     .finally(() => console.log('End of getPokemon'))
 
 const charmader = new Pokemon('Charmander');
+
+(Pokemon.prototype as any).customName = 'Pikachu'
 console.log(charmader)
