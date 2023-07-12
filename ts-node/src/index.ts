@@ -40,5 +40,6 @@ import { getPokemon } from "./generics/get-pokemon";
 const charmader = new Pokemon('Charmander');
 
 // (Pokemon.prototype as any).customName = 'Pikachu'
+charmader.publicApi = 'http://google.com';
 console.log(charmader)
 console.log(charmader.savePokemonToDB(-50))
