@@ -39,5 +39,6 @@ import { getPokemon } from "./generics/get-pokemon";
 
 const charmader = new Pokemon('Charmander');
 
-(Pokemon.prototype as any).customName = 'Pikachu'
+// (Pokemon.prototype as any).customName = 'Pikachu'
 console.log(charmader)
+console.log(charmader.savePokemonToDB(-50))
