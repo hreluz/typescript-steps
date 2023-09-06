@@ -1,0 +1,11 @@
+https://expressjs.com/
+
+https://expressjs.com/en/starter/installing.html
+
+Run server
+------------------------
+    node index.js
+
+Typescript configuration file
+------------------------
+    tsc --init
